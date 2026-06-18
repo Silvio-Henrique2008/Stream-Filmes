@@ -1,7 +1,14 @@
-﻿Filme filme = new Filme();
-filme.titulo = "IT: A Coisa";
-filme.genero = "Terror teen";
-filme.anoLancamento = 2017;
-filme.clssificacaoIndicativa = 16;
+using System.Threading.Channels;
+
+Filme filme = new Filme();
+
+Console.Write("Titulo: ");
+filme.titulo = Console.ReadLine();
+Console.Write("Genero: " );
+filme.genero = Console.ReadLine();
+Console.Write("Ano de lançamento: ");
+filme.anoLancamento = Convert.ToInt32(Console.ReadLine());
+Console.Write("Classificação Indicativa: ");
+filme.classificacaoIndicativa = Convert.ToInt32(Console.ReadLine());
 
 filme.ExibirInformacoes();

@@ -3,7 +3,7 @@
     public string titulo;
     public string genero;
     public int anoLancamento;
-    public int clssificacaoIndicativa;
+    public int classificacaoIndicativa;
 
     public void ExibirInformacoes()
     {
@@ -11,6 +11,6 @@
         Console.WriteLine($"Nome: {titulo}");
         Console.WriteLine($"Genero: {genero}");
         Console.WriteLine($"Ano que foi lançado:{anoLancamento}");
-        Console.WriteLine($"Classificação: {clssificacaoIndicativa}");
+        Console.WriteLine($"Classificação: {classificacaoIndicativa}");
     }
 }
